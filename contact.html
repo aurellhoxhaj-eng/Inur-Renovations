@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Quote Request | X Renovations Inc.</title>
+  <meta name="description" content="Request a free renovation quote from X Renovations Inc. Serving Toronto and the Greater Toronto Area with 30+ years experience.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">X RENOVATIONS <span>INC.</span></a>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li><a href="contact.html" class="btn btn-primary">Request a Quote</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="container" style="max-width: 1000px;">
+    <h1 class="section-title">Request a Free Renovation Quote</h1>
+    <p class="section-subtitle">Get in touch to discuss your upcoming residential renovation or construction project in Toronto & GTA.</p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; margin-top: 3rem;">
+      
+      <!-- Contact Information -->
+      <div>
+        <h2 style="margin-bottom: 1.5rem; font-size: 1.5rem;">Contact Information</h2>
+        
+        <div style="margin-bottom: 1.5rem;">
+          <h3 style="font-size: 1rem; color: var(--accent-color);">Phone</h3>
+          <p style="font-size: 1.1rem; font-weight: 600;">(416) 555-1234</p>
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+          <h3 style="font-size: 1rem; color: var(--accent-color);">Email</h3>
+          <p style="font-size: 1.1rem; font-weight: 600;">company.name@email.com</p>
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+          <h3 style="font-size: 1rem; color: var(--accent-color);">Service Area</h3>
+          <p style="font-size: 1.1rem; font-weight: 600;">Toronto & Greater Toronto Area (GTA)</p>
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+          <h3 style="font-size: 1rem; color: var(--accent-color);">Company</h3>
+          <p style="font-size: 1.1rem; font-weight: 600;">X Renovations Inc.</p>
+          <p style="color: var(--text-muted);">Owner: Inur Last Name</p>
+        </div>
+      </div>
+
+      <!-- Quote Request Form -->
+      <div style="background-color: var(--bg-light); padding: 2rem; border-radius: 8px; border: 1px solid var(--border-color);">
+        <h2 style="margin-bottom: 1.5rem; font-size: 1.5rem;">Send Us a Message</h2>
+        
+        <!-- Mailto form fallback / Formspree action ready -->
+        <form action="mailto:company.name@email.com" method="post" enctype="text/plain">
+          
+          <div style="margin-bottom: 1.25rem;">
+            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Your Full Name</label>
+            <input type="text" name="name" required style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 4px;">
+          </div>
+
+          <div style="margin-bottom: 1.25rem;">
+            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Phone Number</label>
+            <input type="tel" name="phone" required style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 4px;">
+          </div>
+
+          <div style="margin-bottom: 1.25rem;">
+            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Email Address</label>
+            <input type="email" name="email" required style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 4px;">
+          </div>
+
+          <div style="margin-bottom: 1.25rem;">
+            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Project Type</label>
+            <select name="project_type" style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 4px; background-color: #fff;">
+              <option>Full House Renovation</option>
+              <option>Full House Gut Renovation</option>
+              <option>Bathroom Renovation</option>
+              <option>Underpinning / Basement</option>
+              <option>Interior Waterproofing</option>
+              <option>Home Addition</option>
+              <option>Garage Construction</option>
+              <option>Stucco / Exterior</option>
+              <option>Concrete Work</option>
+              <option>Other Renovation Work</option>
+            </select>
+          </div>
+
+          <div style="margin-bottom: 1.5rem;">
+            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Project Description</label>
+            <textarea name="description" rows="4" style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 4px;" placeholder="Tell us about your home, timeline, or scope of work..."></placeholder></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Quote Request</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>X Renovations Inc.</h3>
+        <p>Providing residential renovation and construction services across Toronto & the Greater Toronto Area.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Get a Quote</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contact Us</h3>
+        <p><strong>Phone:</strong> (416) 555-1234</p>
+        <p><strong>Email:</strong> company.name@email.com</p>
+        <p><strong>Service Area:</strong> Toronto & GTA</p>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; X Renovations Inc. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
